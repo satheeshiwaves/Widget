@@ -22,14 +22,14 @@ public class TemperatureWidget extends AppWidgetProvider {
 	public void onReceive(Context context, Intent intent) {		
 		temp=intent.getIntExtra("temperature", 0)/10.0D;
 		updateUI(context) ;
+		//Git
 		super.onReceive(context, intent);
-		//Testing
 	}
 
 	private void updateUI(Context context) {
 		RemoteViews thisViews = new RemoteViews(context.getApplicationContext()	.getPackageName(), R.layout.widget_layout);
 		thisViews.setTextViewText(R.id.update, temp + "");
-
+		//Git
 		ComponentName thisWidget = new ComponentName(context,TemperatureWidget.class);
 		AppWidgetManager.getInstance(context).updateAppWidget(thisWidget,thisViews);
 	}
