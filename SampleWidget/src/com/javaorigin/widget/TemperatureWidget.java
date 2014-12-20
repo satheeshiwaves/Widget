@@ -23,6 +23,7 @@ public class TemperatureWidget extends AppWidgetProvider {
 		temp=intent.getIntExtra("temperature", 0)/10.0D;
 		updateUI(context) ;
 		super.onReceive(context, intent);
+		//Testing
 	}
 
 	private void updateUI(Context context) {
