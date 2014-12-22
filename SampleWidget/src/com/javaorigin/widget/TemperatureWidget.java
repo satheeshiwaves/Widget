@@ -26,6 +26,7 @@ public class TemperatureWidget extends AppWidgetProvider {
 		super.onReceive(context, intent);
 		//Hai second push
 		//Harith
+		// hello
 	
 	}
 
