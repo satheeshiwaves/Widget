@@ -24,6 +24,7 @@ public class TemperatureWidget extends AppWidgetProvider {
 		updateUI(context) ;
 		//Git
 		super.onReceive(context, intent);
+		//Hai second push
 	}
 
 	private void updateUI(Context context) {
