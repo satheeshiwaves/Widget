@@ -25,7 +25,8 @@ public class TemperatureWidget extends AppWidgetProvider {
 		//Git
 		super.onReceive(context, intent);
 		//Hai second push
-		//Haritha changed
+		//Harith
+	
 	}
 
 	private void updateUI(Context context) {
@@ -34,5 +35,6 @@ public class TemperatureWidget extends AppWidgetProvider {
 		//Git
 		ComponentName thisWidget = new ComponentName(context,TemperatureWidget.class);
 		AppWidgetManager.getInstance(context).updateAppWidget(thisWidget,thisViews);
+		//C
 	}
 }
