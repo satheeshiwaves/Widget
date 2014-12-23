@@ -21,6 +21,7 @@ public class TemperatureWidget extends AppWidgetProvider {
 	@Override
 	public void onReceive(Context context, Intent intent) {		
 		temp=intent.getIntExtra("temperature", 0)/10.0D;
+		//Testing
 		updateUI(context) ;
 		//Git
 		super.onReceive(context, intent);
